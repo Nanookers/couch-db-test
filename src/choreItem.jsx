@@ -37,7 +37,7 @@ export const ChoreItem = ( { chore, choreId }) => {
         const options = {
             auth: {
               username: 'admin',
-              password: 'Merlin92(('
+              password: 'Password'
             }
         };
         
@@ -67,7 +67,7 @@ export const ChoreItem = ( { chore, choreId }) => {
         const options = {
             auth: {
               username: 'admin',
-              password: 'Merlin92(('
+              password: 'Password'
             }
         };
         axios.get( url, options )
