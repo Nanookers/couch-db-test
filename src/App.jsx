@@ -15,7 +15,7 @@ function App() {
     const options = {
       auth: {
         username: 'admin',
-        password: 'Merlin92(('
+        password: 'Password'
       }
     };
     axios.get( url, options )
@@ -40,7 +40,7 @@ function App() {
     const options = {
       auth: {
         username: 'admin',
-        password: 'Merlin92(('
+        password: 'Password'
       }
     };
     // Posting to DB
